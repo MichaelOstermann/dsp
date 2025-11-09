@@ -22,11 +22,11 @@
     },
     "packages/disposables": {
       "name": "@monstermann/disposables",
-      "version": "0.0.0",
+      "version": "0.1.0",
     },
     "packages/tree-shake-disposables": {
       "name": "@monstermann/tree-shake-disposables",
-      "version": "0.0.0",
+      "version": "0.1.0",
       "dependencies": {
         "@monstermann/tree-shake-import-namespaces": "^0.1.0",
       },

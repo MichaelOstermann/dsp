@@ -1,7 +1,7 @@
 {
     "name": "@monstermann/disposables",
     "type": "module",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Small & fast disposables.",
     "author": "Michael Ostermann <michaelostermann@me.com>",
     "license": "MIT",
