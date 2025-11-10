@@ -13,7 +13,7 @@ By default [`add`](./add) does not check for duplicates, you can use this or [`f
 ## Example
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dsp = Dsp.create();
 const cb = () => {};

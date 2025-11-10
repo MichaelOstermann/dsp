@@ -2,9 +2,9 @@ import { defineConfig } from "vitepress"
 import { groupIconMdPlugin, groupIconVitePlugin } from "vitepress-plugin-group-icons"
 
 export default defineConfig({
-    base: "/disposables/",
+    base: "/dsp/",
     description: "Small & fast disposables.",
-    title: "disposables",
+    title: "dsp",
     markdown: {
         theme: {
             dark: "catppuccin-macchiato",
@@ -42,7 +42,7 @@ export default defineConfig({
             },
         ],
         socialLinks: [
-            { icon: "github", link: "https://github.com/MichaelOstermann/disposables" },
+            { icon: "github", link: "https://github.com/MichaelOstermann/dsp" },
         ],
     },
     vite: {

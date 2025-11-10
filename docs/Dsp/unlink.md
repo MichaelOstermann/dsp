@@ -11,7 +11,7 @@ Takes a value constructed by [`add`](./add) and destroys all references.
 ## Example
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const cb = () => {};
 

@@ -1,4 +1,4 @@
-import { Dsp } from "@monstermann/disposables"
+import { Dsp } from "@monstermann/dsp"
 
 const a = Dsp.create()
 

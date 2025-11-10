@@ -9,7 +9,7 @@ Returns a boolean indicating whether the provided `Dsp` instance has been dispos
 ## Example
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dsp = Dsp.create();
 Dsp.isDisposed(dsp); // false

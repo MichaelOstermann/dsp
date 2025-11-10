@@ -9,7 +9,7 @@ Creates a new `Dsp` instance.
 ## Example
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dsp = Dsp.create();
 ```

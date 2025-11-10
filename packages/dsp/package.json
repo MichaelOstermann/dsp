@@ -1,17 +1,17 @@
 {
-    "name": "@monstermann/disposables",
+    "name": "@monstermann/dsp",
     "type": "module",
     "version": "0.1.0",
     "description": "Small & fast disposables.",
     "author": "Michael Ostermann <michaelostermann@me.com>",
     "license": "MIT",
-    "homepage": "https://MichaelOstermann.github.io/disposables",
+    "homepage": "https://MichaelOstermann.github.io/dsp",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MichaelOstermann/disposables.git"
+        "url": "git+https://github.com/MichaelOstermann/dsp.git"
     },
     "bugs": {
-        "url": "https://github.com/MichaelOstermann/disposables/issues"
+        "url": "https://github.com/MichaelOstermann/dsp/issues"
     },
     "keywords": [],
     "sideEffects": false,

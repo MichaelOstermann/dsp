@@ -11,7 +11,7 @@ Takes a `Dsp` instance and finds the last occurrence of `value`, the result can 
 ## Example
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dsp = Dsp.create();
 

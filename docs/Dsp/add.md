@@ -17,7 +17,7 @@ Returns undefined if:
 If the target Dsp is already disposed, the provided value will be immediately disposed if possible.
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dspA = Dsp.create();
 const dspB = Dsp.create();

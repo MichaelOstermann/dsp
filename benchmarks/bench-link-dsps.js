@@ -1,4 +1,4 @@
-import { Dsp } from "@monstermann/disposables"
+import { Dsp } from "@monstermann/dsp"
 import { tinybenchPrinter } from "@monstermann/tinybench-pretty-printer"
 import { Bench } from "tinybench"
 
@@ -45,5 +45,4 @@ bench
     }, setupDisposableStack())
 
 await bench.run()
-console.table(bench.table())
 console.log(tinybenchPrinter.order(["name", "ops", "time", "margin", "samples"]).sort(false).toMarkdown(bench))

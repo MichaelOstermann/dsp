@@ -2,7 +2,7 @@
 aside: true
 ---
 
-# disposables
+# dsp
 
 <Badge type="info" class="size">
     <span>Minified</span>
@@ -19,7 +19,7 @@ aside: true
 ## Example
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dspA = Dsp.create();
 const dspB = Dsp.create();
@@ -38,19 +38,19 @@ Dsp.dispose(dspA); // Prints: 4, 3, 2, 1
 ::: code-group
 
 ```sh [npm]
-npm install @monstermann/disposables
+npm install @monstermann/dsp
 ```
 
 ```sh [pnpm]
-pnpm add @monstermann/disposables
+pnpm add @monstermann/dsp
 ```
 
 ```sh [yarn]
-yarn add @monstermann/disposables
+yarn add @monstermann/dsp
 ```
 
 ```sh [bun]
-bun add @monstermann/disposables
+bun add @monstermann/dsp
 ```
 
 :::
@@ -184,19 +184,19 @@ Heapsize for 1M instances:
 ::: code-group
 
 ```sh [npm]
-npm install -D @monstermann/tree-shake-disposables @monstermann/unplugin-tree-shake-import-namespaces
+npm install -D @monstermann/unplugin-dsp
 ```
 
 ```sh [pnpm]
-pnpm -D add @monstermann/tree-shake-disposables @monstermann/unplugin-tree-shake-import-namespaces
+pnpm -D add @monstermann/unplugin-dsp
 ```
 
 ```sh [yarn]
-yarn -D add @monstermann/tree-shake-disposables @monstermann/unplugin-tree-shake-import-namespaces
+yarn -D add @monstermann/unplugin-dsp
 ```
 
 ```sh [bun]
-bun -D add @monstermann/tree-shake-disposables @monstermann/unplugin-tree-shake-import-namespaces
+bun -D add @monstermann/unplugin-dsp
 ```
 
 :::
@@ -207,86 +207,56 @@ bun -D add @monstermann/tree-shake-disposables @monstermann/unplugin-tree-shake-
 
 ```ts [Vite]
 // vite.config.ts
-import treeshake from "@monstermann/unplugin-tree-shake-import-namespaces/vite";
-import treeshakeDisposables from "@monstermann/tree-shake-disposables";
+import dsp from "@monstermann/unplugin-dsp/vite";
 
 export default defineConfig({
-    plugins: [
-        treeshake({
-            resolve: [treeshakeDisposables],
-        }),
-    ],
+    plugins: [dsp()],
 });
 ```
 
 ```ts [Rollup]
 // rollup.config.js
-import treeshake from "@monstermann/unplugin-tree-shake-import-namespaces/rollup";
-import treeshakeDisposables from "@monstermann/tree-shake-disposables";
+import dsp from "@monstermann/unplugin-dsp/rollup";
 
 export default {
-    plugins: [
-        treeshake({
-            resolve: [treeshakeDisposables],
-        }),
-    ],
+    plugins: [dsp()],
 };
 ```
 
 ```ts [Rolldown]
 // rolldown.config.js
-import treeshake from "@monstermann/unplugin-tree-shake-import-namespaces/rolldown";
-import treeshakeDisposables from "@monstermann/tree-shake-disposables";
+import dsp from "@monstermann/unplugin-dsp/rolldown";
 
 export default {
-    plugins: [
-        treeshake({
-            resolve: [treeshakeDisposables],
-        }),
-    ],
+    plugins: [dsp()],
 };
 ```
 
 ```ts [Webpack]
 // webpack.config.js
-const treeshake = require("@monstermann/unplugin-tree-shake-import-namespaces/webpack");
-const treeshakeDisposables = require("@monstermann/tree-shake-disposables");
+const dsp = require("@monstermann/unplugin-dsp/webpack");
 
 module.exports = {
-    plugins: [
-        treeshake({
-            resolve: [treeshakeDisposables],
-        }),
-    ],
+    plugins: [dsp()],
 };
 ```
 
 ```ts [Rspack]
 // rspack.config.js
-const treeshake = require("@monstermann/unplugin-tree-shake-import-namespaces/rspack");
-const treeshakeDisposables = require("@monstermann/tree-shake-disposables");
+const dsp = require("@monstermann/unplugin-dsp/rspack");
 
 module.exports = {
-    plugins: [
-        treeshake({
-            resolve: [treeshakeDisposables],
-        }),
-    ],
+    plugins: [dsp()],
 };
 ```
 
 ```ts [ESBuild]
 // esbuild.config.js
 import { build } from "esbuild";
-import treeshake from "@monstermann/unplugin-tree-shake-import-namespaces/esbuild";
-import treeshakeDisposables from "@monstermann/tree-shake-disposables";
+import dsp from "@monstermann/unplugin-dsp/esbuild";
 
 build({
-    plugins: [
-        treeshake({
-            resolve: [treeshakeDisposables],
-        }),
-    ],
+    plugins: [dsp()],
 });
 ```
 

@@ -9,7 +9,7 @@ Checks whether the provided `value` is a `Dsp` instance.
 ## Example
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dsp = Dsp.create();
 Dsp.isDsp(dsp); // true

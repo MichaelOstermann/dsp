@@ -13,7 +13,7 @@ Every added value is wrapped with a `try/catch` and errors are accumulated in an
 ## Example
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dspA = Dsp.create();
 Dsp.add(dspA, () => console.log(1));
@@ -23,7 +23,7 @@ Dsp.dispose(dspA); // Prints: 2, 1
 ```
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dspA = Dsp.create();
 const dspB = Dsp.create();
@@ -38,7 +38,7 @@ Dsp.dispose(dspA); // Prints: 4, 3, 2, 1
 ```
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dspA = Dsp.create();
 const dspB = Dsp.create();
@@ -54,7 +54,7 @@ Dsp.dispose(dspA); // Prints: 2, 1
 ```
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dspA = Dsp.create();
 
@@ -68,7 +68,7 @@ Dsp.dispose(dspA); // Prints: 2, 1, then rethrows above error
 ```
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dspA = Dsp.create();
 

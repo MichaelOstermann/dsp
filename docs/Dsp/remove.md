@@ -13,7 +13,7 @@ If you can, use [`unlink`](./unlink) as it is `O(1)`.
 ## Example
 
 ```ts
-import { Dsp } from "@monstermann/disposables";
+import { Dsp } from "@monstermann/dsp";
 
 const dsp = Dsp.create();
 const cb = () => {};
