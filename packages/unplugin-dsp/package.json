@@ -1,7 +1,7 @@
 {
     "name": "@monstermann/unplugin-dsp",
     "type": "module",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Small & fast disposables.",
     "author": "Michael Ostermann <michaelostermann@me.com>",
     "license": "MIT",
