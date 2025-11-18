@@ -3,7 +3,7 @@ import transform from "@monstermann/tree-shake-import-namespaces"
 import { createUnplugin } from "unplugin"
 import { createFilter } from "unplugin-utils"
 
-export default createUnplugin<Options>(({ debug, enforce, exclude, include }) => {
+export default createUnplugin<Options>(({ debug, enforce, exclude, include } = {}) => {
     const shouldDebug = debug === undefined
         ? () => false
         : typeof debug === "boolean"
