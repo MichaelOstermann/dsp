@@ -1,8 +1,8 @@
-import { symbol } from "./symbol"
+import type { symbol } from "./symbol"
 
 export interface Dsp {
-    [symbol]: boolean
     dsps: DspLink | undefined
+    [symbol]: boolean
     vals: DspLink | undefined
 }
 

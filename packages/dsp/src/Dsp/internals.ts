@@ -1,4 +1,4 @@
-import type { Dsp, DspLink } from "./types"
+import type { Dsp, DspLink } from "."
 import { symbol } from "./symbol"
 
 export function createLink(disposer: Dsp, val: (() => void) | Dsp): DspLink {

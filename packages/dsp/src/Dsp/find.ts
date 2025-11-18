@@ -1,4 +1,4 @@
-import type { Dsp, DspLink } from "./types"
+import type { Dsp, DspLink } from "."
 
 export function find(target: Dsp, value: (() => void) | Dsp): DspLink | undefined {
     let link = target.vals

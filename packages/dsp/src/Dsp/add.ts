@@ -1,4 +1,4 @@
-import type { Dsp, DspLink } from "./types"
+import type { Dsp, DspLink } from "."
 import { dispose } from "./dispose"
 import { createLink, linkDsp, linkVal } from "./internals"
 import { symbol } from "./symbol"

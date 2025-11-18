@@ -1,4 +1,4 @@
-import type { Dsp } from "./types"
+import type { Dsp } from "."
 import { symbol } from "./symbol"
 
 export function isDisposed(target: Dsp): boolean {

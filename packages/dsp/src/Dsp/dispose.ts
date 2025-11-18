@@ -1,4 +1,4 @@
-import type { Dsp } from "./types"
+import type { Dsp } from "."
 import { unlinkVal } from "./internals"
 import { symbol } from "./symbol"
 

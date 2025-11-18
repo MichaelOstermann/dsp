@@ -1,4 +1,4 @@
-import type { Dsp } from "./types"
+import type { Dsp } from "."
 import { find } from "./find"
 import { unlink } from "./unlink"
 

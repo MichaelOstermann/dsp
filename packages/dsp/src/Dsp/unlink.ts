@@ -1,4 +1,4 @@
-import type { DspLink } from "./types"
+import type { DspLink } from "."
 import { unlinkDsp, unlinkVal } from "./internals"
 
 export function unlink(link: DspLink | undefined): void {
