@@ -1,9 +1,9 @@
 <div align="center">
 
-<h1>unplugin-result</h1>
+<h1>unplugin-dsp</h1>
 
-**Functional utilities for success | error types.**
+**Small & fast disposables.**
 
-[Documentation](https://MichaelOstermann.github.io/result)
+[Documentation](https://MichaelOstermann.github.io/dsp)
 
 </div>
