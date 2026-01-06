@@ -16,6 +16,8 @@ Returns undefined if:
 
 If the target Dsp is already disposed, the provided value will be immediately disposed if possible.
 
+## Example
+
 ```ts
 import { Dsp } from "@monstermann/dsp";
 
