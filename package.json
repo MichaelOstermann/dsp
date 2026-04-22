@@ -14,7 +14,7 @@
         "@monstermann/barrels-flat": "^0.3.0",
         "@monstermann/barrels-namespace": "^0.3.0",
         "@monstermann/dsp": "workspace:*",
-        "@monstermann/eslint-config": "^0.6.0",
+        "@monstermann/eslint-config": "^0.7.0",
         "@monstermann/tinybench-pretty-printer": "^0.3.0",
         "@monstermann/tsconfig": "^0.0.0",
         "@monstermann/vitepress-theme": "^0.2.0",
